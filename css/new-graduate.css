@@ -1,0 +1,132 @@
+/* New graduate LP styles. Scoped to avoid affecting the existing site. */
+
+.new-graduate-page{background:#fff;color:#0d2948}
+.new-graduate-page .site-header{background:rgba(255,255,255,.94);backdrop-filter:blur(12px)}
+.graduate-header .brand{min-width:270px}
+.graduate-nav{font-size:12px;letter-spacing:0}
+.graduate-nav a{padding:0 14px}
+.graduate-entry-link{min-width:116px;letter-spacing:.08em}
+
+.graduate-hero{position:relative;min-height:690px;display:flex;align-items:center;overflow:hidden;background:#dfeef9}
+.graduate-hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.graduate-hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.88) 28%,rgba(234,246,255,.48) 50%,rgba(255,255,255,.08) 76%)}
+.graduate-hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:110px;background:linear-gradient(0deg,#fff,rgba(255,255,255,0))}
+.graduate-hero-inner{position:relative;z-index:1;width:100%;max-width:1320px;margin:0 auto;padding:90px 42px 120px}
+.graduate-label{margin:0 0 18px;color:#164d82;font-size:12px;font-weight:800;letter-spacing:.16em}
+.graduate-hero h1{margin:0;color:var(--navy);font-size:clamp(58px,7.2vw,108px);font-weight:900;line-height:.95;letter-spacing:0}
+.graduate-hero-copy{margin:28px 0 16px;color:var(--navy);font-family:var(--serif);font-size:clamp(22px,2.2vw,32px);font-weight:700;line-height:1.45}
+.graduate-hero-lead{max-width:620px;margin:0;color:#173350;font-size:15px;font-weight:700;line-height:2.1}
+
+.section-kicker{margin:0 0 10px;color:#23598b;font-size:12px;font-weight:800;letter-spacing:.14em}
+.graduate-message{padding-top:0;background:linear-gradient(90deg,#f4f9fd 0%,#fff 58%)}
+.graduate-message-grid{display:grid;grid-template-columns:minmax(320px,470px) minmax(0,1fr);gap:64px;align-items:center}
+.graduate-message-visual{display:grid;grid-template-columns:1fr 1fr;gap:12px;clip-path:polygon(0 0,100% 0,84% 100%,0 100%)}
+.graduate-message-visual img{width:100%;height:230px;object-fit:cover}
+.graduate-message-body{padding:58px 0}
+.graduate-message-body h2{margin:0 0 22px;color:var(--navy);font-family:var(--serif);font-size:clamp(27px,2.5vw,38px);line-height:1.4}
+.graduate-message-body p:not(.section-kicker){max-width:720px;margin:0 0 12px;font-size:14.5px;font-weight:600;line-height:2.05;color:#18324d}
+
+.graduate-work-section{padding-top:78px;padding-bottom:82px}
+.graduate-work-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.graduate-work-card{display:grid;grid-template-columns:170px minmax(0,1fr);min-height:176px;background:#fff;border:1px solid #d7e3ee;box-shadow:0 12px 30px rgba(8,44,85,.06)}
+.graduate-work-card img{width:100%;height:100%;object-fit:cover}
+.graduate-work-card div{padding:26px 26px 22px}
+.graduate-work-card h3{margin:0 0 10px;color:var(--navy);font-size:19px;line-height:1.45}
+.graduate-work-card p{margin:0;color:#243b55;font-size:13.5px;font-weight:600;line-height:1.9}
+
+.graduate-career-section{background:linear-gradient(180deg,#f6faff 0%,#fff 100%)}
+.graduate-career{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;position:relative;padding-top:20px}
+.graduate-career:before{content:"";position:absolute;left:12%;right:12%;top:56px;height:2px;background:#b8cfe3}
+.graduate-career article{position:relative;text-align:center;padding:0 24px}
+.graduate-career article:after{content:"";position:absolute;right:-8px;top:49px;width:16px;height:16px;border-top:2px solid var(--navy);border-right:2px solid var(--navy);transform:rotate(45deg);background:#f8fbff}
+.graduate-career article:last-child:after{display:none}
+.graduate-career span{position:relative;z-index:1;width:72px;height:72px;margin:0 auto 14px;border:1px solid #c6d8e8;border-radius:50%;display:grid;place-items:center;background:#fff;color:var(--navy);font-family:var(--serif);font-size:21px;font-weight:800;box-shadow:0 10px 24px rgba(8,44,85,.06)}
+.graduate-career small{display:block;color:#46617d;font-size:12px;font-weight:800}
+.graduate-career h3{margin:6px 0 10px;color:var(--navy);font-size:17px;line-height:1.45}
+.graduate-career p{margin:0;color:#263d55;font-size:13px;font-weight:600;line-height:1.9}
+
+.graduate-environment-section{padding-top:70px;padding-bottom:72px}
+.graduate-stats{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid #d8e5ef;border-bottom:1px solid #d8e5ef;background:#fff}
+.graduate-stats div{text-align:center;padding:28px 18px;border-right:1px solid #d8e5ef}
+.graduate-stats div:last-child{border-right:0}
+.graduate-stats span,.graduate-stats em,.graduate-stats small{display:block;font-style:normal;font-weight:800}
+.graduate-stats span{color:#244767;font-size:13px}
+.graduate-stats strong{display:inline-block;margin:8px 2px 4px;color:var(--navy);font-family:var(--serif);font-size:44px;line-height:1}
+.graduate-stats em{color:#153759;font-size:15px}
+.graduate-stats small{margin-top:10px;color:#65798d;font-size:12px;line-height:1.6}
+
+.graduate-requirements-section{background:#f6f9fd;padding-top:58px;padding-bottom:68px}
+.graduate-outline{max-width:1080px;margin:0 auto;background:#fff}
+.graduate-outline th,.graduate-outline td{padding:15px 22px;line-height:1.85}
+.graduate-outline th{width:210px;background:#eaf2f9;font-weight:800}
+
+.graduate-flow-section{padding-top:56px;padding-bottom:78px}
+.graduate-flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:34px;position:relative;max-width:1080px;margin:0 auto}
+.graduate-flow article{position:relative;min-height:150px;padding:28px 24px;background:#fff;border:1px solid #d7e3ee;text-align:center;box-shadow:0 10px 24px rgba(8,44,85,.05)}
+.graduate-flow article:not(:last-child):after{content:"";position:absolute;right:-24px;top:50%;width:13px;height:13px;border-top:2px solid var(--navy);border-right:2px solid var(--navy);transform:translateY(-50%) rotate(45deg)}
+.graduate-flow span{display:block;margin:0 0 10px;color:#315d87;font-size:11px;font-weight:800;letter-spacing:.09em}
+.graduate-flow h3{margin:0 0 8px;color:var(--navy);font-size:17px;line-height:1.45}
+.graduate-flow p{margin:0;color:#354e68;font-size:13px;font-weight:600;line-height:1.75}
+
+.graduate-final-cta{position:relative;min-height:390px;display:grid;place-items:center;overflow:hidden;background:#052b59;color:#fff;text-align:center}
+.graduate-final-cta img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.graduate-final-cta:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(4,38,77,.88),rgba(4,47,95,.74))}
+.graduate-final-cta-inner{position:relative;z-index:1;width:min(900px,calc(100% - 48px));padding:58px 0}
+.graduate-final-cta h2{margin:0 0 18px;font-family:var(--serif);font-size:clamp(27px,3vw,42px);line-height:1.55;letter-spacing:0}
+.graduate-final-cta p{margin:0 auto 28px;max-width:720px;font-size:14.5px;font-weight:700;line-height:2}
+.graduate-entry-button{display:inline-flex;min-width:320px;min-height:82px;flex-direction:column;align-items:center;justify-content:center;gap:4px;background:#fff;color:var(--navy);border:1px solid rgba(255,255,255,.72);box-shadow:0 14px 34px rgba(0,0,0,.2);font-weight:800}
+.graduate-entry-button strong{font-size:20px;letter-spacing:.08em;line-height:1}
+.graduate-entry-button span{font-size:12px}
+
+.mid-career-page .graduate-hero-bg{object-position:center}
+.mid-career-page .graduate-hero:before{background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.91) 32%,rgba(232,243,252,.54) 55%,rgba(255,255,255,.08) 80%)}
+.mid-career-page .graduate-message{background:linear-gradient(90deg,#f3f7fb 0%,#fff 58%)}
+.mid-career-page .graduate-work-card:first-child img{object-position:center}
+.mid-career-page .graduate-work-card:nth-child(3) img{object-position:center}
+.mid-career-page .graduate-career-section{background:linear-gradient(180deg,#f4f8fc 0%,#fff 100%)}
+
+@media(max-width:1280px){
+  .graduate-nav a{padding:0 10px}
+  .graduate-work-card{grid-template-columns:140px minmax(0,1fr)}
+}
+
+@media(max-width:1100px){
+  .graduate-header .brand{min-width:auto}
+  .graduate-nav a:not(.graduate-entry-link){display:none}
+  .graduate-hero{min-height:610px}
+  .graduate-work-grid{grid-template-columns:1fr}
+  .graduate-work-card{grid-template-columns:230px minmax(0,1fr)}
+  .graduate-career,.graduate-stats,.graduate-flow{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .graduate-career:before,.graduate-career article:after,.graduate-flow article:after{display:none}
+  .graduate-career{gap:28px}
+  .graduate-flow{gap:22px}
+  .graduate-stats div:nth-child(2n){border-right:0}
+  .graduate-stats div:nth-child(-n+3){border-bottom:1px solid #d8e5ef}
+}
+
+@media(max-width:760px){
+  .graduate-hero{min-height:560px;align-items:flex-end}
+  .graduate-hero-bg{object-position:60% center}
+  .graduate-hero:before{background:linear-gradient(0deg,rgba(255,255,255,.96) 0%,rgba(255,255,255,.82) 52%,rgba(255,255,255,.26) 100%)}
+  .graduate-hero-inner{padding:130px 24px 68px}
+  .graduate-hero h1{font-size:52px}
+  .graduate-hero-lead{font-size:13.5px;line-height:1.9}
+  .graduate-message{padding-top:44px}
+  .graduate-message-grid{grid-template-columns:1fr;gap:28px}
+  .graduate-message-visual{clip-path:none}
+  .graduate-message-visual img{height:190px}
+  .graduate-message-body{padding:0}
+  .graduate-message-body h2{font-size:25px}
+  .graduate-work-card{grid-template-columns:1fr}
+  .graduate-work-card img{height:210px}
+  .graduate-career,.graduate-stats,.graduate-flow{grid-template-columns:1fr}
+  .graduate-career article{text-align:left;padding:0 0 26px;border-bottom:1px solid #d9e5ef}
+  .graduate-career span{margin:0 0 14px}
+  .graduate-stats div{border-right:0;border-bottom:1px solid #d8e5ef}
+  .graduate-stats div:last-child{border-bottom:0}
+  .graduate-outline,.graduate-outline tbody,.graduate-outline tr,.graduate-outline th,.graduate-outline td{display:block;width:100%}
+  .graduate-outline th{border-bottom:0}
+  .graduate-outline td{border-top:0}
+  .graduate-entry-button{min-width:min(100%,320px)}
+  .mid-career-page .graduate-hero-bg{object-position:64% center}
+}
